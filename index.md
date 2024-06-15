@@ -1,4 +1,4 @@
-# Welcome to My GitHub Page!
+# notes
 This is a simple web page hosted on GitHub Pages.
 
 ## About Me
