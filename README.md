@@ -12,5 +12,3 @@ So how do we test if $z_n$ converges or diverges?
 So how do I test if $z_n$ will converge or diverge? Apparently, if $|z_i| >2$ at any point in the recursion, you'll tend towards infinity.
 
 $0$, $c$, $z_i$, $
-
-## how to test this in Processing
