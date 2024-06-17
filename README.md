@@ -31,7 +31,3 @@ Easier to observe in practice:
 Therefore, it seems to follow that if we scale a shape by $s$ and its mass scales by $s^d$, the shape's dimension is $d$.
 
 Given all that, a <strong>Fractal</strong> is a shape with non-integer dimension. 
-
-## branches & running the code
-I explore a fractal in each branch of this repo. The README for each branch has proofs and explanations on that structure.
-Run this code with Python in Processing. 
