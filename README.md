@@ -1,8 +1,6 @@
 # my notes
 
-In case anyone comes across this:
-
-I took a class a few years ago at GHP where we wrote some basic stuff to visualize the famous Mandelbrot set. 
+I took a class a few years ago at GHP where we wrote some basic stuff to visualize the Mandelbrot set. 
 
 I was bored during my internship and I realized that I couldn't remember how it was constructed, so these are just some notes for myself in case I forget it again or anyone else who's curious.
 
