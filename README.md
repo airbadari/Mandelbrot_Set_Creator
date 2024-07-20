@@ -22,7 +22,7 @@ Given two similar shapes:
 
 Easier to observe in practice:
 
-1. If we scale a line segment by $\frac{1}{2}$, its mass scales by $\Big(\frac{1}{2}^1\Big)$.
+1. If we scale a line segment by , its mass scales by $\Big(\frac{1}{2}^1\Big)$.
 2. If we scale a square by $\frac{1}{2}$, its mass scales by $\Big(\frac{1}{2}^2\Big)$.
 3. If we scale a cube by $\frac{1}{2}$, its mass scales by $\Big(\frac{1}{2}^3\Big)$.
 
