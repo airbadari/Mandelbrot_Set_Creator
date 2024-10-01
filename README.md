@@ -25,5 +25,5 @@ Therefore, when $x > 2$, $|z_i^2+c| > |z_i|$ is true.
 However, there is a possibility of asymptotically approaching some value, like 3, where consecutive terms are getting closer to 3, but are bounded above by some value. This is still convergence. To get around this, we can prove that the difference between consecutive terms is >= 0.
 
 #### Claim 2: The difference between consecutive terms is increasing.
-If $|z_i|$ is $x$, then $|z_i^2|$ is $x^2$.
+If $|z_i|$ is $x$, then $|z_i^2|$ is $x^2$. Let $|c|$ be $y$ and let it, in the worst case, be exactly opposite $|z_i^2|$
 
