@@ -18,4 +18,12 @@ $$|z_i|>2 \text{ and } |z_i| >= |c|, \text{ then } \frac{|z_{i+1}|}{|z_i|} > 1$$
 
 Why do we care about this? In general, if we're tending towards infinity, $z_i$ will go further away from the origin than $c$. At some point, it should pass $2$ if it's on the way to infinity.
 
-At first I bashed my way to prove this, but there's an easier way to think about it: Let $|z_i|$ be $x$ away from the origin. $|z_i^2|$ is $x^2$ away.
+At first I bashed my way to prove this, but there's an easier way to think about it: Let $|z_i|$ be $x$ away from the origin, where $x$ is a positive number. $|z_i^2|$ is $x^2$ away. We want $c$ to bring $z_i^2$ back to the origin as much as possible. This is done when $c$ is directly opposite $z_i^2$ and is as far away from the origin as possible. So, let's assume it's directly across and has maximum distance, which is also $|z_i|$ or $x$. Therefore, $|z_i^2+c|$ is at least $x^2-x$. Is this greater than $|z_i| = $x$?. Solving $x^2-x>x$ leads to $x(x-2) > 0$. This has solutions for $x < 0$ and $x > 2$. We assumed $x$ is positive, so the only solution is $x > 2$. 
+
+Therefore, when $x > 2$, $|z_i^2+c| > |z_i|$ is true.
+
+However, there is a possibility of asymptotically approaching some value, like 3, where consecutive terms are getting closer to 3, but are bounded above by some value. This is still convergence. To get around this, we can prove that the difference between consecutive terms is >= 0.
+
+#### Claim 2: The difference between consecutive terms is increasing.
+If $|z_i|$ is $x$, then $|z_i^2|$ is $x^2$.
+
