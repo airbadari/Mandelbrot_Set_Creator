@@ -24,6 +24,8 @@ Therefore, when $x > 2$, $|z_i^2+c| > |z_i|$ is true.
 
 However, there is a possibility of asymptotically approaching some value, like 3, where consecutive terms are getting closer to 3, but are bounded above by some value. This is still convergence. To get around this, we can prove that the difference between consecutive terms is >= 0.
 
-#### Claim 2: The difference between consecutive terms is increasing.
-If $|z_i|$ is $x$, then $|z_i^2|$ is $x^2$. Let $|c|$ be $y$ and let it, in the worst case, be exactly opposite $|z_i^2|$
+#### Claim 2: The difference between consecutive terms is either constant or increasing.
+If $|z_i|$ is $x$, then $|z_i^2|$ is $x^2$. Let $|c|$ be $y$ and let it, in the worst case, be exactly opposite $|z_i^2|$. Therefore, $|z_i^2 + c| = x^2-y$. Since $x > 2$, we know that $x^2>4 \to x^2 > 2x > 4$. Therefore, $|z_i^2 + c|$ can be viewed as always being bounded below by, or at least as big, as $2x-y$. Now, the difference between this and $|z_i|$ is $(2x-y)-x = x-y$. Since $|z_i| > |c|$, this value is guaranteed to be positive. Now, since $x$ is increasing, $x-y$ as a term is always increasing. With that, the difference between consecutive terms is always increasing.
+
+
 
