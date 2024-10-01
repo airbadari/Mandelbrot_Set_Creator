@@ -27,5 +27,7 @@ However, there is a possibility of asymptotically approaching some value, like 3
 #### Claim 2: The difference between consecutive terms is either constant or increasing.
 If $|z_i|$ is $x$, then $|z_i^2|$ is $x^2$. Let $|c|$ be $y$ and let it, in the worst case, be exactly opposite $|z_i^2|$. Therefore, $|z_i^2 + c| = x^2-y$. Since $x > 2$, we know that $x^2>4 \to x^2 > 2x > 4$. Therefore, $|z_i^2 + c|$ can be viewed as always being bounded below by, or at least as big, as $2x-y$. Now, the difference between this and $|z_i|$ is $(2x-y)-x = x-y$. Since $|z_i| > |c|$, this value is guaranteed to be positive. Now, since $x$ is increasing, $x-y$ as a term is always increasing. With that, the difference between consecutive terms is always increasing.
 
-
+### coloring:
+In terms of processing, we give the sequence a certain number of opportunities to hit 2 (maxIter). We decide to color each point based on the number of steps it takes to hit 2. So, naturally everything outside of 2 is one color. Everything near 2 is another (since it probably takes 1 step), everything a little closer to the origin is another, ...
+If we get to maxIter, we assume that the sequence will never leave 2. 
 
