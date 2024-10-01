@@ -1,8 +1,8 @@
 # my notes
 
-I took a class a few years ago at GHP where we wrote some basic stuff to visualize the Mandelbrot set. 
+I took a class at GHP some years ago where we wrote some basic stuff to visualize the Mandelbrot set. 
 
-I was boring this summer and was trying to remember how it was constructed, so these are just some notes for myself in case I forget it again or anyone else who's curious.
+I was bored this summer and couldn't remember how it was constructed, so these are just some notes.
 
 ## definition
 Back when I took the class, I thought fractals were just self-similar shapes. You zoom in enough and eventually see the same thing. Apparently, that's not the case, and according to [3Blue1Brown](https://www.youtube.com/watch?v=gB9n2gHsHN4), we can define fractals more rigorously.
