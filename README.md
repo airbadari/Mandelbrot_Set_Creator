@@ -9,6 +9,5 @@ The test to determine if a complex number $c$ is part of the Mandelbrot Set:
 
 So how do we test if $z_n$ converges or diverges?
 
-So how do I test if $z_n$ will converge or diverge? Apparently, if $|z_i| >2$ at any point in the recursion, you'll tend towards infinity.
+Essentialy, if $|z_i| >2$ at any point in the recursion, you'll tend towards infinity. This is what we wrote in our code way back when, but we didn't go through any proof if I remember correctly.
 
-$0$, $c$, $z_i$, $
