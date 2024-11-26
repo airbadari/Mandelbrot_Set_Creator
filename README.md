@@ -22,9 +22,9 @@ Given two similar shapes (similar as in the strict definition of the word):
 
 Easier to observe in practice:
 
-1. If we scale a line segment by $\frac{1}{2}$, its mass scales by $\Big(\frac{1}{2}^1\Big)$.
-2. If we scale a square by $\frac{1}{2}$, its mass scales by $\Big(\frac{1}{2}^2\Big)$.
-3. If we scale a cube by $\frac{1}{2}$, its mass scales by $\Big(\frac{1}{2}^3\Big)$.
+1. If we scale a line segment by $\frac{1}{2}$, its mass scales by $\Big(\frac{1}{2}\Big)^1$.
+2. If we scale a square by $\frac{1}{2}$, its mass scales by $\Big(\frac{1}{2}\Big)^2$.
+3. If we scale a cube by $\frac{1}{2}$, its mass scales by $\Big(\frac{1}{2}\Big)^3$.
 
 Therefore, it seems to follow that if we scale a shape by $s$ and its mass scales by $s^d$, the shape's dimension is $d$.
 
