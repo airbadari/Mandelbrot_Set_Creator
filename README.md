@@ -32,4 +32,4 @@ Given all that, a <strong>Fractal</strong> is a shape with non-integer dimension
 
 ## fractals
 
-In its own branch. Only mandelbrot for now.
+visit each branch
