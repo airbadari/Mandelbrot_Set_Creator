@@ -11,7 +11,7 @@ Some other definitions help with defining fractals.
 
 <strong>Scaling Factor:</strong> I was actually having trouble defining this well. I'm sure one of these will suffice:
 
-Given two similar shapes (similar as in the strict definition of the word): 
+Given two similar shapes (similar as in the math definition of the word): 
 1. Choose the same curve/side on both shapes and take its length. Divide the larger length by the smaller length to find the factor to scale from the smaller to the larger shape. 1 over that to scale down.
 2. Lay one of the shapes on the plane. If you multiply all points on the shape by some factor $s$, the resulting shape will be congruent to the other shape. That's the scaling factor from the one you laid down to the other one.
 
